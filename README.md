@@ -9,6 +9,8 @@ I recommend you have an icon lib to make it clearer what you have pinned, but it
 
 ## Known Issues
 
+- Issue with building with pnpm, use `vsce package --no-dependencies`
+
 Non... yet ;)
 
 ## Release Notes
