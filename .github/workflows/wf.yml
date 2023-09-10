@@ -1,10 +1,10 @@
 on:
   push:
     branches:
-    - main
+      - main
   release:
     types:
-    - created
+      - created
 jobs:
   - name: Publish
     if: success() && startsWith(github.ref, 'refs/tags/') && matrix.os == 'ubuntu-latest'
